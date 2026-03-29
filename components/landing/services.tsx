@@ -27,10 +27,10 @@ const services = [
   },
   {
     icon: Sparkles,
-    title: "Limpeza de Ar Condicionado",
-    description: "Higienização profunda dos filtros e componentes para um ar mais puro e saudável em Foz do Iguaçu.",
+    title: "Limpeza de Ar Condicionado em Foz do Iguacu",
+    description: "Higienizacao profunda dos filtros e componentes para um ar mais puro e saudavel em Foz do Iguacu.",
     image: "/images/limpeza-ar.png",
-    href: "/manutencao-ar-condicionado-foz-do-iguacu",
+    href: "/limpeza-ar-condicionado-foz-do-iguacu",
   },
   {
     icon: Zap,

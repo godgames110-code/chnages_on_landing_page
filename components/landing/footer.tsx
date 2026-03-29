@@ -42,7 +42,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#servicos" className="text-sm text-gray-400 hover:text-white transition-colors">
+                <Link href="/limpeza-ar-condicionado-foz-do-iguacu" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Limpeza de Ar Condicionado
                 </Link>
               </li>
@@ -97,9 +97,11 @@ export function Footer() {
           <p className="mt-2">
             <Link href="/pmoc-foz-do-iguacu" className="hover:text-white transition-colors">PMOC</Link>
             {" | "}
-            <Link href="/instalacao-ar-condicionado-foz-do-iguacu" className="hover:text-white transition-colors">Instalação</Link>
+            <Link href="/instalacao-ar-condicionado-foz-do-iguacu" className="hover:text-white transition-colors">Instalacao</Link>
             {" | "}
-            <Link href="/manutencao-ar-condicionado-foz-do-iguacu" className="hover:text-white transition-colors">Manutenção</Link>
+            <Link href="/manutencao-ar-condicionado-foz-do-iguacu" className="hover:text-white transition-colors">Manutencao</Link>
+            {" | "}
+            <Link href="/limpeza-ar-condicionado-foz-do-iguacu" className="hover:text-white transition-colors">Limpeza</Link>
           </p>
         </div>
       </div>

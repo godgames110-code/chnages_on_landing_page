@@ -8,19 +8,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Imperial Ar Condicionado | PMOC e Ar Condicionado em Foz do Iguaçu",
-  description: "Especialistas em climatização em Foz do Iguaçu - PR. Instalação, manutenção, limpeza e PMOC de ar condicionado. Atendimento residencial e comercial com garantia. Solicite seu orçamento!",
+  title: "Imperial Ar Condicionado | PMOC, Instalacao, Limpeza e Manutencao de Ar Condicionado em Foz do Iguacu",
+  description: "Especialistas em ar condicionado em Foz do Iguacu - PR. Instalacao de ar condicionado, limpeza de ar condicionado, manutencao e PMOC. Atendimento residencial e comercial com garantia. Solicite seu orcamento!",
   keywords: [
-    "ar condicionado Foz do Iguaçu",
-    "PMOC Foz do Iguaçu",
-    "instalação ar condicionado Foz do Iguaçu",
-    "manutenção ar condicionado Foz do Iguaçu",
-    "limpeza ar condicionado Foz do Iguaçu",
-    "climatização Foz do Iguaçu",
-    "ar condicionado split",
-    "técnico ar condicionado",
-    "conserto ar condicionado Foz",
-    "Imperial Ar Condicionado"
+    "ar condicionado Foz do Iguacu",
+    "PMOC Foz do Iguacu",
+    "instalacao ar condicionado Foz do Iguacu",
+    "instalacao de ar condicionado Foz do Iguacu",
+    "manutencao ar condicionado Foz do Iguacu",
+    "limpeza ar condicionado Foz do Iguacu",
+    "limpeza de ar condicionado Foz do Iguacu",
+    "higienizacao ar condicionado Foz do Iguacu",
+    "climatizacao Foz do Iguacu",
+    "ar condicionado split Foz do Iguacu",
+    "tecnico ar condicionado Foz do Iguacu",
+    "conserto ar condicionado Foz do Iguacu",
+    "Imperial Ar Condicionado",
+    "ar condicionado residencial Foz do Iguacu",
+    "ar condicionado comercial Foz do Iguacu"
   ],
   authors: [{ name: "Imperial Ar Condicionado" }],
   creator: "Imperial Ar Condicionado",
@@ -41,8 +46,8 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: "https://imperialarfoz.com.br",
     siteName: "Imperial Ar Condicionado",
-    title: "Imperial Ar Condicionado | PMOC e Ar Condicionado em Foz do Iguaçu",
-    description: "Especialistas em climatização em Foz do Iguaçu - PR. Instalação, manutenção, limpeza e PMOC de ar condicionado com garantia.",
+    title: "Imperial Ar Condicionado | PMOC, Instalacao, Limpeza e Manutencao em Foz do Iguacu",
+    description: "Especialistas em ar condicionado em Foz do Iguacu - PR. Instalacao, limpeza, manutencao e PMOC de ar condicionado com garantia.",
     images: [
       {
         url: "/images/og-image.jpg",
@@ -54,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Imperial Ar Condicionado | PMOC e Ar Condicionado em Foz do Iguaçu",
-    description: "Especialistas em climatização em Foz do Iguaçu - PR. Instalação, manutenção, limpeza e PMOC de ar condicionado.",
+    title: "Imperial Ar Condicionado | Instalacao, Limpeza e PMOC em Foz do Iguacu",
+    description: "Especialistas em ar condicionado em Foz do Iguacu - PR. Instalacao, limpeza, manutencao e PMOC de ar condicionado.",
     images: ["/images/og-image.jpg"],
   },
   alternates: {
@@ -120,30 +125,38 @@ export default function RootLayout({
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "Serviços de Ar Condicionado",
+      name: "Servicos de Ar Condicionado em Foz do Iguacu",
       itemListElement: [
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "PMOC - Plano de Manutenção",
-            description: "Plano de Manutenção, Operação e Controle de ar condicionado conforme legislação",
+            name: "PMOC em Foz do Iguacu",
+            description: "Plano de Manutencao, Operacao e Controle de ar condicionado conforme legislacao em Foz do Iguacu",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Instalação de Ar Condicionado",
-            description: "Instalação profissional de ar condicionado split e multi-split",
+            name: "Instalacao de Ar Condicionado em Foz do Iguacu",
+            description: "Instalacao profissional de ar condicionado split e multi-split em Foz do Iguacu",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Manutenção de Ar Condicionado",
-            description: "Manutenção preventiva e corretiva de sistemas de climatização",
+            name: "Manutencao de Ar Condicionado em Foz do Iguacu",
+            description: "Manutencao preventiva e corretiva de sistemas de climatizacao em Foz do Iguacu",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Limpeza de Ar Condicionado em Foz do Iguacu",
+            description: "Limpeza profissional e higienizacao completa de ar condicionado em Foz do Iguacu",
           },
         },
       ],
