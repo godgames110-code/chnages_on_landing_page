@@ -1,0 +1,72 @@
+import { DashboardHeader } from "@/components/dashboard-header"
+import { ProfileForm } from "@/components/profile-form"
+import { SettingsCard } from "@/components/settings-card"
+import { User, Bell, Shield, Palette } from "lucide-react"
+
+export default function ProfilePage() {
+  return (
+    <div className="min-h-screen bg-background">
+      <DashboardHeader />
+
+      <main className="container mx-auto px-4 py-8 max-w-5xl">
+        <div className="space-y-6">
+          <div>
+            <h1 className="text-3xl font-bold text-foreground">Perfil</h1>
+            <p className="text-muted-foreground mt-1">Gerencie suas configurações de conta e preferências</p>
+          </div>
+
+          <div className="grid gap-6 lg:grid-cols-[300px_1fr]">
+            <aside className="space-y-4">
+              <div className="bg-card rounded-lg border border-border p-6 text-center">
+                <div className="mx-auto h-24 w-24 rounded-full bg-muted flex items-center justify-center mb-4">
+                  <User className="h-12 w-12 text-muted-foreground" />
+                </div>
+                <h2 className="text-xl font-semibold text-foreground">John Doe</h2>
+                <p className="text-sm text-muted-foreground mt-1">john.doe@example.com</p>
+                <button className="mt-4 w-full rounded-lg bg-secondary text-secondary-foreground px-4 py-2 text-sm font-medium hover:bg-secondary/80 transition-colors">
+                  Alterar Foto
+                </button>
+              </div>
+
+              <nav className="bg-card rounded-lg border border-border overflow-hidden">
+                <a
+                  href="#general"
+                  className="flex items-center gap-3 px-4 py-3 text-sm font-medium text-foreground bg-muted border-l-4 border-primary"
+                >
+                  <User className="h-4 w-4" />
+                  Geral
+                </a>
+                <a
+                  href="#notifications"
+                  className="flex items-center gap-3 px-4 py-3 text-sm text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                >
+                  <Bell className="h-4 w-4" />
+                  Notificações
+                </a>
+                <a
+                  href="#security"
+                  className="flex items-center gap-3 px-4 py-3 text-sm text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                >
+                  <Shield className="h-4 w-4" />
+                  Segurança
+                </a>
+                <a
+                  href="#appearance"
+                  className="flex items-center gap-3 px-4 py-3 text-sm text-muted-foreground hover:bg-muted hover:text-foreground transition-colors"
+                >
+                  <Palette className="h-4 w-4" />
+                  Aparência
+                </a>
+              </nav>
+            </aside>
+
+            <div className="space-y-6">
+              <ProfileForm />
+              <SettingsCard />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  )
+}
