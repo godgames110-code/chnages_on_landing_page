@@ -8,7 +8,8 @@ const publicRoutes = new Set([
   "/forgot-password",
   "/pmoc-foz-do-iguacu",
   "/instalacao-ar-condicionado-foz-do-iguacu",
-  "/manutencao-ar-condicionado-foz-do-iguacu"
+  "/manutencao-ar-condicionado-foz-do-iguacu",
+  "/limpeza-ar-condicionado-foz-do-iguacu"
 ]);
 
 function isPublicRoute(pathname: string): boolean {
